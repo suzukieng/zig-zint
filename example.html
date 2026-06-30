@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Zig Example</title>
+    <style>
+        .barcode {
+            height: 120px;
+        }
+    </style>
+</head>
+<body>
+
+<form>
+    <label for="barcode-text">Text</label>
+    <input type="text" id="barcode-text">
+
+    <output style="display: block; margin-top: 1rem">
+        <img src="out.svg" alt="Example" class="barcode">
+    </output>
+</form>
+
+<script>
+document.getElementById("barcode-text").addEventListener("input", function() {
+    const text = this.value;
+});
+</script>
+
+</body>
+</html>
