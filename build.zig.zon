@@ -1,7 +1,7 @@
 .{
     .name = .zig_zint,
     .version = "0.1.0",
-    .fingerprint = 0x9a6a8e22e7d254b0, // Changing this has security and trust implications.
+    .fingerprint = 0x6bc7fa4b11baa32, // Changing this has security and trust implications.
     .minimum_zig_version = "0.16.0",
     .paths = .{
         "build.zig",
